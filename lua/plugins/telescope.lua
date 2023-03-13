@@ -2,6 +2,7 @@ local telescope = require("telescope")
 local actions = require("telescope.actions")
 local themes = require("telescope.themes")
 local lga_actions = require("telescope-live-grep-args.actions")
+local builtin = require('telescope.builtin')
 
 -- Credit https://github.com/nvim-telescope/telescope.nvim/issues/223#issuecomment-810091610
 local previewers = require("telescope.previewers")
@@ -150,6 +151,14 @@ vim.api.nvim_set_keymap("n", "<leader>gb", "<cmd> Telescope git_branches<CR>", n
 vim.api.nvim_set_keymap("n", "<leader>r", "<cmd> Telescope lsp_references<CR>", noremap_silent)
 vim.api.nvim_set_keymap("n", "<leader>ae", "<cmd> Telescope diagnostics bufnr=0 <CR>", noremap_silent)
 vim.api.nvim_set_keymap("n", "<leader>Ae", "<cmd> Telescope diagnostics <CR>", noremap_silent)
+
+vim.keymap.set('n', '<leader>pf', builtin.find_files, {})
+vim.keymap.set('n', '<C-p>', builtin.git_files, {})
+vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
+vim.keymap.set('n', '<leader>ps', function()
+	builtin.grep_string({ search = vim.fn.input("Grep > ") })
+end)
+
 
 telescope.load_extension("fzf")
 telescope.load_extension("live_grep_args")
