@@ -14,9 +14,9 @@ require("packer").startup(function()
   -- use("christianchiarulli/nvcode-color-schemes.vim")
   -- use({ "akinsho/nvim-bufferline.lua", branch = "main" })
   -- use({
-    "nvim-lualine/lualine.nvim",
-    requires = { { "kyazdani42/nvim-web-devicons" } },
-  })
+  --   "nvim-lualine/lualine.nvim",
+  --  requires = { { "kyazdani42/nvim-web-devicons" } },
+  --})
   -- use("ntpeters/vim-better-whitespace")
   -- use("karb94/neoscroll.nvim")
   -- use("nvim-zh/colorful-winsep.nvim")
