@@ -4,7 +4,6 @@ local M = {}
 M.lsp = {
   root_dir = vim.loop.cwd,
   filetypes = {
-    -- "clojure", if efm ever supports clojure.
     "dockerfile",
     "go",
     "json",
@@ -20,7 +19,6 @@ M.lsp = {
   settings = {
     rootMarkers = { ".git/" },
     languages = {
-      -- clojure = require("languages.clojure").efm, if efm ever supports clojure.
       dockerfile = require("lsp.languages.docker").efm,
       go = require("lsp.languages.go").efm,
       json = require("lsp.languages.json").efm,

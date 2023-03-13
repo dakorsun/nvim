@@ -88,27 +88,12 @@ require("packer").startup(function()
   })
   -- Terminal.
   use({ "akinsho/toggleterm.nvim", branch = "main" })
-  -- Clojure.
-  use("Olical/conjure")
-  -- use when developing on conjure
-  -- use("~/oss/conjure")
-  use("Olical/aniseed")
-  use({
-    "clojure-vim/vim-jack-in",
-    -- removing dispatch to avoid opening a terminal tab.
-    requires = {
-      { "tpope/vim-dispatch" },
-      { "radenling/vim-dispatch-neovim" },
-    },
-  })
-  use({
-    "PaterJason/cmp-conjure",
-  })
-  use("Invertisment/conjure-clj-additions-cider-nrepl-mw")
+
   use("bakpakin/fennel.vim")
   use("guns/vim-sexp")
   use("tpope/vim-sexp-mappings-for-regular-people")
   use({ "eraserhd/parinfer-rust", run = "cargo build --release" })
+
   -- Databases.
   use({
     "tpope/vim-dadbod",

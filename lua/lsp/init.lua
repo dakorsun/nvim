@@ -4,7 +4,6 @@
 require("lsp.handlers").setup()
 
 local lspconfig = require("lspconfig")
-lspconfig.clojure_lsp.setup(require("lsp.languages.clojure").lsp)
 lspconfig.dockerls.setup(require("lsp.languages.docker").lsp)
 lspconfig.efm.setup(require("lsp.efm").lsp)
 lspconfig.gopls.setup(require("lsp.languages.go").lsp)

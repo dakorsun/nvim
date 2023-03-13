@@ -2,7 +2,7 @@
 --          TREESITTER
 -- =============================
 require("nvim-treesitter.configs").setup({
-  ensure_installed = { "python", "clojure", "go", "lua", "java", "gitignore" },
+  ensure_installed = { "python", "go", "lua", "java", "gitignore" },
   rainbow = {
     enable = true,
   },

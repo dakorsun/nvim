@@ -25,7 +25,6 @@ cmp.setup({
   },
   sources = {
     { name = "vim-dadbod-completion" },
-    { name = "conjure" },
     { name = "nvim_lsp" },
     { name = "buffer" },
     { name = "cmdline" },

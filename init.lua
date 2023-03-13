@@ -20,7 +20,6 @@ require("plugins.telescope")
 require("plugins.neorg")
 require("plugins.toggleterm")
 require("plugins.alpha")
-require("plugins.conjure")
 
 require("plugins.marks")
 require("plugins.winsep")
