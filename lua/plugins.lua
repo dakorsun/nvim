@@ -36,7 +36,7 @@ require("packer").startup(function()
   -- Snippets.
   -- use("saadparwaiz1/cmp_luasnip")
   -- use("L3MON4D3/LuaSnip")
-  -- use("neovim/nvim-lspconfig") -- Collection of configurations for built-in LSP client
+  use("neovim/nvim-lspconfig") -- Collection of configurations for built-in LSP client
   -- use({
   --  "hrsh7th/nvim-cmp",
   --  requires = { { "onsails/lspkind-nvim" } },
