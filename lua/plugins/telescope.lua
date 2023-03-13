@@ -47,7 +47,7 @@ end
 -- Credit https://github.com/nvim-telescope/telescope.nvim
 telescope.setup({
   defaults = {
-    prompt_prefix = " ",
+    prompt_prefix = "<leader>",
     layout_config = {
       horizontal = { mirror = false, preview_width = 0.5 },
       vertical = { mirror = false },
