@@ -39,7 +39,7 @@ vim.o.hlsearch = true
 vim.o.termguicolors = true
 vim.o.syntax = "on"
 vim.g.nvcode_termcolors = 256
-vim.cmd([[ color snazzy ]])
+-- vim.cmd([[ color snazzy ]])
 
 -- LINES
 vim.bo.softtabstop = 4

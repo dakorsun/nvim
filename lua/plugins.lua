@@ -11,15 +11,15 @@ require("packer").startup(function()
   -- Packer.
   use("wbthomason/packer.nvim")
   -- UI.
-  use("christianchiarulli/nvcode-color-schemes.vim")
-  use({ "akinsho/nvim-bufferline.lua", branch = "main" })
-  use({
+  -- use("christianchiarulli/nvcode-color-schemes.vim")
+  -- use({ "akinsho/nvim-bufferline.lua", branch = "main" })
+  -- use({
     "nvim-lualine/lualine.nvim",
     requires = { { "kyazdani42/nvim-web-devicons" } },
   })
-  use("ntpeters/vim-better-whitespace")
-  use("karb94/neoscroll.nvim")
-  use("nvim-zh/colorful-winsep.nvim")
+  -- use("ntpeters/vim-better-whitespace")
+  -- use("karb94/neoscroll.nvim")
+  -- use("nvim-zh/colorful-winsep.nvim")
   use('mbbill/undotree')
   use({
     'rose-pine/neovim',
@@ -34,19 +34,19 @@ require("packer").startup(function()
 
   -- LSP and Autocompletion.
   -- Snippets.
-  use("saadparwaiz1/cmp_luasnip")
-  use("L3MON4D3/LuaSnip")
-  use("neovim/nvim-lspconfig") -- Collection of configurations for built-in LSP client
-  use({
+  -- use("saadparwaiz1/cmp_luasnip")
+  -- use("L3MON4D3/LuaSnip")
+  -- use("neovim/nvim-lspconfig") -- Collection of configurations for built-in LSP client
+  -- use({
     "hrsh7th/nvim-cmp",
     requires = { { "onsails/lspkind-nvim" } },
   })
-  use("hrsh7th/cmp-nvim-lsp")
-  use("hrsh7th/cmp-buffer")
-  use("hrsh7th/cmp-cmdline")
-  use("hrsh7th/cmp-path")
-  use("hrsh7th/cmp-nvim-lua")
-  use("rcarriga/cmp-dap")
+  -- use("hrsh7th/cmp-nvim-lsp")
+  -- use("hrsh7th/cmp-buffer")
+  -- use("hrsh7th/cmp-cmdline")
+  -- use("hrsh7th/cmp-path")
+  -- use("hrsh7th/cmp-nvim-lua")
+  -- use("rcarriga/cmp-dap")
   -- Treesitter.
   use({
     "nvim-treesitter/nvim-treesitter",
@@ -63,8 +63,8 @@ require("packer").startup(function()
       { "nvim-telescope/telescope-live-grep-raw.nvim" },
     },
   })
-  use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" })
-  use({ "nvim-telescope/telescope-ui-select.nvim" })
+  -- use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" })
+  -- use({ "nvim-telescope/telescope-ui-select.nvim" })
 
   -- DAP.
   use("mfussenegger/nvim-dap")
@@ -78,14 +78,14 @@ require("packer").startup(function()
     requires = { { "mfussenegger/nvim-dap" } },
   })
   -- Movement.
-  use("tpope/vim-repeat")
-  use("ggandor/leap.nvim")
-  use({
+  -- use("tpope/vim-repeat")
+  -- use("ggandor/leap.nvim")
+  -- use({
     "ggandor/flit.nvim",
     requires = { { "ggandor/leap.nvim" } },
   })
-  use("tpope/vim-surround")
-  use("chentoast/marks.nvim")
+  -- use("tpope/vim-surround")
+  -- use("chentoast/marks.nvim")
   -- Git.
   use("tpope/vim-fugitive")
   use("tpope/vim-rhubarb")
@@ -96,12 +96,12 @@ require("packer").startup(function()
     },
   })
   -- Terminal.
-  use({ "akinsho/toggleterm.nvim", branch = "main" })
+  -- use({ "akinsho/toggleterm.nvim", branch = "main" })
 
-  use("bakpakin/fennel.vim")
-  use("guns/vim-sexp")
-  use("tpope/vim-sexp-mappings-for-regular-people")
-  use({ "eraserhd/parinfer-rust", run = "cargo build --release" })
+  -- use("bakpakin/fennel.vim")
+  -- use("guns/vim-sexp")
+  -- use("tpope/vim-sexp-mappings-for-regular-people")
+  -- use({ "eraserhd/parinfer-rust", run = "cargo build --release" })
 
   -- Databases.
   use({
@@ -118,7 +118,7 @@ require("packer").startup(function()
   })
   use("pbogut/vim-dadbod-ssh")
   -- CSV
-  use("chrisbra/csv.vim")
+  -- use("chrisbra/csv.vim")
   -- Startup
   use({ "goolord/alpha-nvim", requires = {
     "kyazdani42/nvim-web-devicons",
