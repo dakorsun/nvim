@@ -81,9 +81,9 @@ require("packer").startup(function()
   -- use("tpope/vim-repeat")
   -- use("ggandor/leap.nvim")
   -- use({
-    "ggandor/flit.nvim",
-    requires = { { "ggandor/leap.nvim" } },
-  })
+  --  "ggandor/flit.nvim",
+  --  requires = { { "ggandor/leap.nvim" } },
+  --})
   -- use("tpope/vim-surround")
   -- use("chentoast/marks.nvim")
   -- Git.
