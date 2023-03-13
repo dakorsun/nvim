@@ -124,12 +124,12 @@ require("packer").startup(function()
     "kyazdani42/nvim-web-devicons",
   } })
   -- Notes
-  use({
-    "nvim-neorg/neorg",
-    tag = "*",
-    requires = {
-      { "nvim-treesitter/nvim-treesitter" },
-      { "nvim-lua/plenary.nvim" },
-    },
-  })
+--  use({
+--    "nvim-neorg/neorg",
+--    tag = "*",
+--    requires = {
+--      { "nvim-treesitter/nvim-treesitter" },
+--      { "nvim-lua/plenary.nvim" },
+--    },
+--  })
 end)
