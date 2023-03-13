@@ -17,7 +17,7 @@ require("lsp")
 require("plugins.fugitive")
 require("plugins.dap")
 require("plugins.telescope")
-require("plugins.neorg")
+-- require("plugins.neorg")
 -- require("plugins.toggleterm")
 require("plugins.alpha")
 
